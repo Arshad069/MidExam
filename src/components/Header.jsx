@@ -1,6 +1,7 @@
 // src/components/Header.jsx
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../style/Header.css'
 
 const Header = () => {
   return (
@@ -12,7 +13,7 @@ const Header = () => {
       </nav>
     </header>
   );
-  
+
 };
 
 export default Header;

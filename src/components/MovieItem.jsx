@@ -1,3 +1,4 @@
+// src/components/MovieItem.jsx
 
 import React from 'react';
 
@@ -5,7 +6,7 @@ const MovieItem = ({ movie }) => {
   return (
     <div className="movie-item">
       <img 
-        src={movie.poster_path ? `https://image.tmdb.org/t/p/w500${movie.poster_path}` : 'placeholder-image.jpg'} 
+        src={movie.poster_path} 
         alt={movie.title} 
       />
       <h3>{movie.title}</h3>
