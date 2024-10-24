@@ -1,0 +1,35 @@
+/* src/style/SearchBar.css */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .search-bar input {
+    width: 70%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 0.5rem;
+  }
+  
+  .search-bar button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  @media (max-width: 600px) {
+    .search-bar input {
+      width: 60%;
+      font-size: 0.9rem;
+    }
+  
+    .search-bar button {
+      font-size: 0.9rem;
+    }
+  }
