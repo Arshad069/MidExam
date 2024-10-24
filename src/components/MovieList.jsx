@@ -39,7 +39,7 @@ const MovieList = () => {
       title: 'Titanic',
       release_date: '1997-12-19',
       vote_average: 7.8,
-      poster_path: 'https://via.placeholder.com/150', 
+      poster_path: 'src="https://media.themoviedb.org/t/p/w220_and_h330_face/k42Owka8v91trK1qMYwCQCNwJKr.jpg"', 
     },
     {
       id: 6,
